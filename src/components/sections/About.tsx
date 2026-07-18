@@ -110,9 +110,9 @@ export default function About() {
               </div>
               <div className="w-px h-8 bg-sage/20" />
               <div>
-                <div className="text-2xl font-bold text-olive font-display">
-                  <Counter value={4                  Copy-Item "C:\path\to\new-menu-image.png" -Destination .\public\menu.png -Force.9} suffix="/5.0" />
-                </div>
+                  <div className="text-2xl font-bold text-olive font-display">
+                    <Counter value={4.9} suffix="/5.0" />
+                  </div>
                 <div className="text-[9px] uppercase tracking-wider text-sage/70 mt-1">Google Rating</div>
               </div>
             </div>
