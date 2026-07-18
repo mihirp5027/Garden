@@ -126,7 +126,7 @@ export default function About() {
             <div className="absolute inset-0 z-10 bg-gradient-to-t from-[#F4F6F3] via-[#F4F6F3]/10 to-transparent pointer-events-none" />
             <div className="relative w-full h-full min-h-[340px]">
               <Image
-                src="/menu.png"
+                src="/menu-new.png"
                 alt="Cafe Menu Detail"
                 fill
                 className="object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90"

@@ -12,7 +12,7 @@ export default function Gallery() {
   const galleryItems = [
     {
       id: 0,
-      src: "/menu.png",
+      src: "/menu-new.png",
       title: "The Garden Menu",
       desc: "Full drink selection photographed at our Brighton table.",
       aspect: "row-span-2 col-span-1",
@@ -30,7 +30,7 @@ export default function Gallery() {
     },
     {
       id: 2,
-      src: "/menu.png",
+      src: "/menu-new.png",
       title: "Matcha Specials Detail",
       desc: "Featuring our Vanilla, Rose, and Lavender Matchas.",
       aspect: "row-span-1 col-span-1",
@@ -39,7 +39,7 @@ export default function Gallery() {
     },
     {
       id: 3,
-      src: "/menu.png",
+      src: "/menu-new.png",
       title: "Wines & Specialty Drinks",
       desc: "Botanical mixes served after 5:00 PM.",
       aspect: "row-span-1 col-span-1",
@@ -48,7 +48,7 @@ export default function Gallery() {
     },
     {
       id: 4,
-      src: "/menu.png",
+      src: "/menu-new.png",
       title: "Smoothies & Soft Drinks",
       desc: "Fresh juices, organic lemonades, and green boosters.",
       aspect: "row-span-1 col-span-1",
