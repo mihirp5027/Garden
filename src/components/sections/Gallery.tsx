@@ -8,11 +8,11 @@ import { Sparkles, Maximize2, X } from "lucide-react";
 export default function Gallery() {
   const [activeImage, setActiveImage] = useState<number | null>(null);
 
-  // Stylized views based on the two uploaded assets
+    // Stylized views based on the downloaded assets
   const galleryItems = [
     {
       id: 0,
-      src: "/menu-new.png",
+      src: "/gallery-0.jpg",
       title: "The Garden Menu",
       desc: "Full drink selection photographed at our Brighton table.",
       aspect: "row-span-2 col-span-1",
@@ -21,7 +21,7 @@ export default function Gallery() {
     },
     {
       id: 1,
-      src: "/logo.png",
+      src: "/gallery-1.jpg",
       title: "Our Signature Seal",
       desc: "The organic emblem of Garden Café Brighton.",
       aspect: "row-span-1 col-span-1",
@@ -30,7 +30,7 @@ export default function Gallery() {
     },
     {
       id: 2,
-      src: "/menu-new.png",
+      src: "/gallery-2.jpg",
       title: "Matcha Specials Detail",
       desc: "Featuring our Vanilla, Rose, and Lavender Matchas.",
       aspect: "row-span-1 col-span-1",
@@ -39,7 +39,7 @@ export default function Gallery() {
     },
     {
       id: 3,
-      src: "/menu-new.png",
+      src: "/gallery-1.jpg",
       title: "Wines & Specialty Drinks",
       desc: "Botanical mixes served after 5:00 PM.",
       aspect: "row-span-1 col-span-1",
@@ -48,7 +48,7 @@ export default function Gallery() {
     },
     {
       id: 4,
-      src: "/menu-new.png",
+      src: "/gallery-2.jpg",
       title: "Smoothies & Soft Drinks",
       desc: "Fresh juices, organic lemonades, and green boosters.",
       aspect: "row-span-1 col-span-1",
@@ -57,7 +57,7 @@ export default function Gallery() {
     },
     {
       id: 5,
-      src: "/logo.png",
+      src: "/gallery-0.jpg",
       title: "Sage & Ivory Emblem",
       desc: "Minimalist brand color tone study.",
       aspect: "row-span-1 col-span-1",

@@ -111,13 +111,12 @@ export default function About() {
               <div className="w-px h-8 bg-sage/20" />
               <div>
                 <div className="text-2xl font-bold text-olive font-display">
-                  <Counter value={49} suffix="/5.0" />
+                  <Counter value={4                  Copy-Item "C:\path\to\new-menu-image.png" -Destination .\public\menu.png -Force.9} suffix="/5.0" />
                 </div>
                 <div className="text-[9px] uppercase tracking-wider text-sage/70 mt-1">Google Rating</div>
               </div>
             </div>
           </motion.div>
-
           {/* Card 2: Image Reveal Card */}
           <motion.div
             variants={cardVariants}
@@ -126,7 +125,7 @@ export default function About() {
             <div className="absolute inset-0 z-10 bg-gradient-to-t from-[#F4F6F3] via-[#F4F6F3]/10 to-transparent pointer-events-none" />
             <div className="relative w-full h-full min-h-[340px]">
               <Image
-                src="/menu-new.png"
+                src="/menu.png"
                 alt="Cafe Menu Detail"
                 fill
                 className="object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90"

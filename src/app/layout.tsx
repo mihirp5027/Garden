@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
   display: "swap",
 });
-
+//a
 export const metadata: Metadata = {
   title: "Garden Café Brighton | Premium Botanical Escape",
   description: "Experience award-winning specialty coffee, artisanal matchas, organic wines, and botanical cocktails at Brighton's premier garden cafe. Served with love, crafted with passion.",
